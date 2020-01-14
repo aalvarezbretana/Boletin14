@@ -29,7 +29,7 @@ public class ConversorTemperaturas {
         if (graos < TEMPERATURA_MINIMA) {
             throw new TemperaturaErradaException("Os graos centigrados non poden ser menor que 80");
         }
-        float fahren = 9 / 5 * graos + 32.4f;
+        float fahren = 9f / 5f * graos + 32.4f;
         return fahren;
     }
 
